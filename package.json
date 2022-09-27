@@ -1,0 +1,23 @@
+{
+  "name": "poc-ocr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.7.1",
+    "serverless": "^3.22.0",
+    "serverless-offline": "^10.3.0"
+  },
+  "dependencies": {
+    "formidable": "^2.0.1",
+    "tesseract.js": "^3.0.3"
+  }
+}

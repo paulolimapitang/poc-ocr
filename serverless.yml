@@ -1,0 +1,12 @@
+service: poc-ocr
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions: ${file(ymls/functions.yml)}
+
+plugins:
+  - serverless-offline
